@@ -30,6 +30,6 @@ def calculate_tip(bill, tip_percent):
 
 tip_amount, total = calculate_tip(bill, tip_percent)
 
-print(f"Tip amount: ${tip_amount:.2f}")
+print(f"\nTip amount: ${tip_amount:.2f}")
 print(f"Total bill: ${total:.2f}")
 
