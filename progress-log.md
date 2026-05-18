@@ -6,15 +6,10 @@ A log of everything I learned about Python scripting throughout this project.
 
 ### 🛠️ What I Built
 
-I created a simple Python CLI tip calculator that takes a bill amount and tip percentage from the user, validates the input, performs the calculation, and prints a formatted result with currency styling.
-
-The script also introduces reusable logic through a function that separates calculation from user input handling.
+A tip calculator that takes a bill amount and tip percentage from the user, validates the input, performs the calculation, and prints a formatted result with currency styling.
 
 ### 🧠 What I Learned
 
-This was my first real Python CLI script with structured input handling.
-
-Key concepts I worked through:
 - How Python handles user input using `input()` (always returns a string)
 - Converting string input into numeric types using `float()`
 - Handling invalid input using `try/except ValueError`
@@ -29,18 +24,32 @@ Key concepts I worked through:
 
 ### 🛠️ What I Built
 
-I created a Python CLI temperature converter that takes a numeric temperature value and a unit (Celsius, Fahrenheit, or Kelvin) from the user, validates the input, and converts it into the other two temperature scales.
-
-The script is structured to normalize user input, apply conversion logic based on the selected unit, and output all converted values in a clean, formatted way. The conversion logic was later refactored into a reusable function to separate processing from user interaction.
+A temperature converter that takes a numeric temperature value and a unit (Celsius, Fahrenheit, or Kelvin) from the user, validates the input, and converts it into the other two temperature scales.
 
 ### 🧠 What I Learned
 
-This script built on my understanding of CLI tools and introduced more structured logic flow and function-based design.
-
-Key concepts I worked through:
-- Using .lower() to normalize user input for consistent validation
-- Applying conditional logic (if/elif) to handle multiple input states
+- Using `.lower()` to normalize user input for consistent validation
+- Applying conditional logic (`if/elif`) to handle multiple input states
 - Understanding unit conversion formulas between Celsius, Fahrenheit, and Kelvin
 - Introducing the concept of a “base unit” to simplify conversions
 - Structuring logic around a pivot system (converting through a reference unit instead of direct mappings)
 - Separating concerns between input handling, processing, and output formatting
+
+## 3. CSV Reader
+
+### 🛠️ What I Built
+
+A CSV reader that takes a CSV file path from the user, reads it line-by-line, separates each line into data fields, and outputs a clean formatted version of the data.
+
+### 🧠 What I Learned
+
+- Using `open()` to open a file for reading
+- Using `"r"` for read mode
+- Using `with` to automatically close the file
+- Processing files line-by-line with `readlines()`
+- Removing whitespace and newlines characters using `strip()`
+- Splitting lines into usable data fields using `split(",")`
+- Understanding how raw text becomes structured data
+- Using defensive programming to skip empty lines
+- Handling incomplete or invalid rows safely instead of breaking the script
+- Printing/logging invalid data instead of letting the program crash
