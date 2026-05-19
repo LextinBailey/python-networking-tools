@@ -7,6 +7,7 @@ while True:
             continue
 
         break
+    
     except ValueError:
         print("Invalid input. Please enter a number.")
 
@@ -19,6 +20,7 @@ while True:
             continue
 
         break
+
     except ValueError:
         print("Invalid input. Please enter a number.")
 

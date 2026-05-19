@@ -3,6 +3,7 @@ while True:
         temp = float(input("Enter temperature value: "))
         
         break
+
     except ValueError:
         print("Invalid input. Please enter a number.")
 
@@ -11,6 +12,7 @@ while True:
 
     if unit in ["c", "f", "k"]:
         break
+    
     else:
         print("Invalid unit. Please enter C, F, or K.")
 

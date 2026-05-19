@@ -53,3 +53,17 @@ A CSV reader that takes a CSV file path from the user, reads it line-by-line, se
 - Using defensive programming to skip empty lines
 - Handling incomplete or invalid rows safely instead of breaking the script
 - Printing/logging invalid data instead of letting the program crash
+
+## 4. Password Generator
+
+### 🛠️ What I Built
+
+A random password generator that takes a password length from the user and generates a password using a pool of letters, numbers, and symbols.
+
+### 🧠 What I Learned
+
+- Worked with the `random` and `string` modules
+- Used `string.ascii_letters`, `string.digits`, and `string.punctuation` to build a pool of characters
+- Usied `for _ in range` to repeat a task a specific number of times
+- Using `random.choice()` to randomly select characters from a data pool
+- Built a string iteratively by appending characters one at a time
