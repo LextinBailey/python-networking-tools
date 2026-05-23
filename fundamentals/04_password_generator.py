@@ -15,7 +15,6 @@ while True:
         print("Please enter a valid number.")
 
 all_chars = string.ascii_letters + string.digits + string.punctuation
-
 password = ""
 
 for _ in range(length):

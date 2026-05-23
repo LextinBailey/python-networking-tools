@@ -2,6 +2,8 @@
 
 A log of everything I learned about Python scripting throughout this project.
 
+# Fundamentals (Core Python Scripting)
+
 ## 1. Tip Calculator
 
 ### 🛠️ What I Built
@@ -64,6 +66,23 @@ A random password generator that takes a password length from the user and gener
 
 - Worked with the `random` and `string` modules
 - Used `string.ascii_letters`, `string.digits`, and `string.punctuation` to build a pool of characters
-- Usied `for _ in range` to repeat a task a specific number of times
+- Used `for _ in range` to repeat a task a specific number of times
 - Using `random.choice()` to randomly select characters from a data pool
 - Built a string iteratively by appending characters one at a time
+
+## 5. Number Guessing Game
+
+### 🛠️ What I Built
+
+A replayable number guessing game that generates a random number (1-100) and gives the user 5 attempts to guess it, with feedback provided after each guess.
+
+The game includes input validation, win/loss conditions, and replay functionality using nested loops and reuable game logic.
+
+### 🧠 What I Learned
+
+- Managing program state (`secret_number`, `guess`, and attempts)
+- Using nested loops for both gameplay and replay functionality 
+- Creating win/loss conditions with conditional logic
+- Using `break` to exit loops when success conditions are met
+- Asking for user input to control program flow (play again system)
+
