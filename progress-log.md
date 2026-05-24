@@ -146,3 +146,19 @@ A simple REST API client that sends a request to a public API, receives JSON dat
 - Accessing data using dictionary keys
 - Working with structured remote data instead of raw text or HTML
 - Extracting and displaying specific fields from an API response
+
+## 5. Port Scanner
+
+### 🛠️ What I Built
+
+A simple port scanner that takes a IP address and port range from the user and checks whether each port whether each port within that range is open or closed.
+
+### 🧠 What I Learned
+
+- Using the `socket` module to perform low-level network operations
+- Creating a socket using IPv4 (`AF_INET`) and TCP connections (`SOCK_STREAM`)
+- Understanding how ports represent network services
+- Using `settimeout()` to prevent hanging connections
+- Using `connect_ex()` to attempt connections and return status codes instead of raising errors
+- Interpreting return values (`0` = open, non-zero = closed)
+
