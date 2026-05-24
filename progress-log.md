@@ -86,3 +86,20 @@ The game includes input validation, win/loss conditions, and replay functionalit
 - Using `break` to exit loops when success conditions are met
 - Asking for user input to control program flow (play again system)
 
+# Intermediate (Data Handling & Automation Basics)
+
+## 1. IP Ping Checker
+
+### 🛠️ What I Built
+
+An IP ping checker that takes a file path from the user, reads a list of IP addresses from the file, pings each one, and reports whether each host is online or offline.
+
+### 🧠 What I Learned
+
+- Using the `subprocess` library to run system commands and interact with the operating system
+- Understanding how to use `subprocess.run()` to execute commands and capture results
+- Using return codes to determine whether a command succeeded or failed
+- Pinging IP addresses to check network connectivity
+- Using `-c 1` to send a single ping packet on Linux/macOS systems
+- Reading external data from a file and using it to drive automation
+
