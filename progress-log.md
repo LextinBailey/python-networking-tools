@@ -103,3 +103,19 @@ An IP ping checker that takes a file path from the user, reads a list of IP addr
 - Using `-c 1` to send a single ping packet on Linux/macOS systems
 - Reading external data from a file and using it to drive automation
 
+## 2. Log Parser
+
+### 🛠️ What I Built
+
+A log file parser that takes a file path from the user, reads the log entries line-by-line, filters out error messages, and extracts the timestamp and message from each error.
+
+The script processes raw log text and transforms it into structured, readable output.
+
+### 🧠 What I Learned
+
+- Filtering text data using keyword matching (`"ERROR" in line`)
+- Understanding how raw log data is structured
+- Extracting specific fields (timestamp and message) from unstructured text
+- Reconstructing meaningful output using `" ".join()`
+- Transforming raw text data into structured, readable information
+
