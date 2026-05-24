@@ -133,3 +133,16 @@ A web scraper that takes a URL from the user, fetches the webpage content, parse
 - Navigating HTML using DOM-style queries (e.g., selecting specific tags like `h1`)
 - Working with unstructured web data and turning it into readable output
 
+## 4. API Client
+
+### 🛠️ What I Built
+
+A simple REST API client that sends a request to a public API, receives JSON data, and extracts specific fields to display in a readable format.
+
+### 🧠 What I Learned
+
+- Understanding how REST APIs return structured JSON data
+- Using `.json()` to convert API responses into Python dictionaries
+- Accessing data using dictionary keys
+- Working with structured remote data instead of raw text or HTML
+- Extracting and displaying specific fields from an API response
