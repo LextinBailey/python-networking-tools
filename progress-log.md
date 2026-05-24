@@ -119,3 +119,17 @@ The script processes raw log text and transforms it into structured, readable ou
 - Reconstructing meaningful output using `" ".join()`
 - Transforming raw text data into structured, readable information
 
+## 3. Web Scraper
+
+### 🛠️ What I Built
+
+A web scraper that takes a URL from the user, fetches the webpage content, parses the HTML using BeautifulSoup, and outputs all headings elements found on the page.
+
+### 🧠 What I Learned
+
+- Using the `requests` library to make HTTP requests and fetch web pages
+- Understanding how web pages are returned as raw HTML
+- Using `BeautifulSoup` to parse and structure HTML data
+- Navigating HTML using DOM-style queries (e.g., selecting specific tags like `h1`)
+- Working with unstructured web data and turning it into readable output
+
