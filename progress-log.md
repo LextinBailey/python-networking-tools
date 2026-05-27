@@ -162,3 +162,22 @@ A simple port scanner that takes a IP address and port range from the user and c
 - Using `connect_ex()` to attempt connections and return status codes instead of raising errors
 - Interpreting return values (`0` = open, non-zero = closed)
 
+# Network Automation (Real-World Infrastructure Tools)
+
+## 1. SSH Remote Executor (Paramiko)
+
+### 🛠️ What I Built
+
+An SSH remote executor that takes connection credentials from the user, establishes an SSH connection to a remote machine, executes a command remotely, and outputs the command response.
+
+### 🧠 What I Learned
+
+- Using the Paramiko library to automate SSH connections
+- Creating and configuring an SSH client with `SSHClient()`
+- Understanding host key verification and using `AutoAddPolicy()` in a lab environment
+- Connecting to remote systems using SSH credentials
+- Executing remote commands with `exec_command()`
+- Working with `stdin`, `stdout`, and `stderr` streams
+- Reading and decoding byte data into readable strings using `.read().decode()`
+- Understanding how remote command output is transmitted over network streams
+
