@@ -181,3 +181,19 @@ An SSH remote executor that takes connection credentials from the user, establis
 - Reading and decoding byte data into readable strings using `.read().decode()`
 - Understanding how remote command output is transmitted over network streams
 
+## 2. Network Inventory
+
+### 🛠️ What I Built
+
+A network inventory script that takes a network range from the user, sends ARP requests across the network, and outputs the IP and MAC addresses of discovered devices.
+
+### 🧠 What I Learned
+
+- Using the Scapy library to build and send packets
+- Understanding the role of ARP in mapping IP addresses to MAC addresses
+- Creating Ethernet frames with `Ether()`
+- Using broadcast traffic to communicate with all devices on a local network
+- Combining protocol layers to construct packets
+- Sending and receiving packets with `srp()`
+- Extracting IP and MAC addresses from packet responses
+- Understanding that some low-level network operations require elevated privileges
