@@ -50,8 +50,6 @@ Focus: Automate real network and system administration tasks.
     Monitors CPU and memory usage and sends alerts when thresholds are exceeded.
 4. Bandwidth Logger
     Tracks network usage over time and exports data to CSV reports.
-5. Router Backup Automation
-    Automatically backs up configuration files from a pfSense router via SSH.
 
 ## 🚀 How to Use This Repo
 

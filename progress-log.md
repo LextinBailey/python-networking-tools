@@ -216,3 +216,21 @@ The script runs continuously, acting as a basic monitoring agent for a local sys
 - Implementing continuous monitoring using a `while True` loop
 - Using `time.sleep()` to control execution frequency and prevent excessive resource usage
 - Applying threshold-based alerting (event-driven logic based on system state)
+
+## 4. Bandwidth Monitor
+
+### 🛠️ What I Built
+
+A continuous bandwidth monitoring script that tracks network usage over time and logs the data into a CSV file. It records timestamps along with total bytes send and received, building a historical dataset of network activity. The script can also generate a simple report based on the collected data.
+
+### 🧠 What I Learned
+
+- Using the psutil library to access network I/O statistics (bytes sent and received)
+- Understanding how system network counters represent cumulative traffic since system startup
+- Capturing and storing time-based data to build a history of system activity (time-series data)
+- Using the `csv` module to write structured data to a file
+- Appending data to a CSV file for persistent logging over time
+- Using `datetime` to timestamp each measurement for tracking when data was collected
+- Reading CSV files using `DictReader` to process stored data
+- Generating simple summaries from logged data (basic reporting)
+- Building a basic monitoring + reporting workflow from raw system metrics
