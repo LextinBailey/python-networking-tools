@@ -197,3 +197,22 @@ A network inventory script that takes a network range from the user, sends ARP r
 - Sending and receiving packets with `srp()`
 - Extracting IP and MAC addresses from packet responses
 - Understanding that some low-level network operations require elevated privileges
+
+## 3. Server Monitor
+
+### 🛠️ What I Built
+
+A continuous resource monitoring script that checks CPU and memory usage every 60 seconds. It compares system metrics against predefined thresholds and sends an email alert if either CPU or memory usage exceeds the limit.
+
+The script runs continuously, acting as a basic monitoring agent for a local system.
+
+### 🧠 What I Learned
+
+- Using the psutil library to access real-time CPU and memory usage
+- Understanding how system metrics are represented as percentages and upload over time
+- Using the smtplib library to send emails through an SMTP server (Gmail)
+- Building structured email messages with Subject, From, To, and Body fields
+- Using `starttls()` and port `587` for secure email transmission
+- Implementing continuous monitoring using a `while True` loop
+- Using `time.sleep()` to control execution frequency and prevent excessive resource usage
+- Applying threshold-based alerting (event-driven logic based on system state)
